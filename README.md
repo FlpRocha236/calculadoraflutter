@@ -1,6 +1,6 @@
 # 📱 Calculadora de IMC Multiplataforma
 
-Este repositório contém uma aplicação funcional de Calculadora de IMC construída com o framework **Flutter**. [cite_start]O projeto foi desenvolvido com foco prático em engenharia de software e desenvolvimento multiplataforma (cross-platform), garantindo que o código lógico em Dart permaneça intacto enquanto o framework gerencia as execuções nativas[cite: 19].
+Este repositório contém uma aplicação funcional de Calculadora de IMC construída com o framework **Flutter**. O projeto foi desenvolvido com foco prático em engenharia de software e desenvolvimento multiplataforma (cross-platform), garantindo que o código lógico em Dart permaneça intacto enquanto o framework gerencia as execuções nativas.
 
 O grande diferencial deste projeto é a sua infraestrutura: a aplicação foi codificada em nuvem e conta com uma esteira de Integração e Entrega Contínuas (CI/CD) totalmente automatizada.
 
@@ -16,7 +16,7 @@ O grande diferencial deste projeto é a sua infraestrutura: a aplicação foi co
 
 ### 1. Desenvolvimento em Nuvem (GitHub Codespaces)
 
-Para otimizar recursos locais, o desenvolvimento ocorreu no GitHub Codespaces. [cite_start]Como a imagem padrão do Codespaces não inclui o SDK do Flutter nativamente [cite: 3][cite_start], o ambiente foi configurado via terminal clonando o canal estável do framework (`git clone -b stable https://github.com/flutter/flutter.git ~/flutter`) [cite: 10] [cite_start]e mapeando o executável nas variáveis de ambiente (`export PATH="$PATH:$HOME/flutter/bin"`)[cite: 13]. [cite_start]Após essa etapa, as plataformas foram geradas dinamicamente com o comando `flutter create --platforms web, android`[cite: 17].
+Para otimizar recursos locais, o desenvolvimento ocorreu no GitHub Codespaces. [cite_start]Como a imagem padrão do Codespaces não inclui o SDK do Flutter nativamente, o ambiente foi configurado via terminal clonando o canal estável do framework (`git clone -b stable https://github.com/flutter/flutter.git ~/flutter`) e mapeando o executável nas variáveis de ambiente (`export PATH="$PATH:$HOME/flutter/bin"`). Após essa etapa, as plataformas foram geradas dinamicamente com o comando `flutter create --platforms web, android`.
 
 ### 2. Automação com GitHub Actions (CI/CD)
 
@@ -40,8 +40,8 @@ Acesse a aplicação rodando diretamente no seu navegador através do GitHub Pag
 
 ## 👨‍💻 Sincronização e Desenvolvimento Local
 
-[cite_start]Caso queira clonar este projeto e rodar localmente após o uso do Codespaces, utilize o GitHub Desktop ou a CLI para realizar o `fetch` e `pull` das atualizações[cite: 28]. [cite_start]Isso garantirá que toda a árvore de arquivos, incluindo as pastas nativas geradas em nuvem, sejam baixadas corretamente[cite: 29].
+Caso queira clonar este projeto e rodar localmente após o uso do Codespaces, utilize o GitHub Desktop ou a CLI para realizar o `fetch` e `pull` das atualizações. Isso garantirá que toda a árvore de arquivos, incluindo as pastas nativas geradas em nuvem, sejam baixadas corretamente.
 
 ---
 
-[cite_start]*Projeto desenvolvido para a disciplina de Desenvolvimento Multiplataforma - FATEC Araras.* [cite: 20]
+*Projeto desenvolvido para a disciplina de Desenvolvimento Multiplataforma - FATEC Araras.* 
