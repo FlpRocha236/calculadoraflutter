@@ -7,7 +7,7 @@ O grande diferencial deste projeto é a sua infraestrutura: a aplicação foi co
 ## 🚀 Tecnologias Utilizadas
 
 * **Front-end:** Flutter & Dart
-* [cite_start]**Ambiente de Desenvolvimento:** GitHub Codespaces [cite: 1]
+* [cite_start]**Ambiente de Desenvolvimento:** GitHub Codespaces
 * **Isolamento de Build:** Docker (Ubuntu 22.04)
 * **CI/CD:** GitHub Actions
 * **Hospedagem Web:** GitHub Pages
